@@ -72,6 +72,7 @@ router.put("/:id", async (req, res) => {
   }
 });
 
+//delete
 router.delete("/:id", async (req, res) => {
   try {
     //translates to 'DELETE FROM posts WHERE id = ?;'
